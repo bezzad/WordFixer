@@ -1,0 +1,42 @@
+[
+  {
+    "Item1": "<w:sz w:val=\"\\d*\"/>",
+    "Item2": true
+  },
+  {
+    "Item1": "<w:szCs w:val=\"\\d*\"/>",
+    "Item2": true
+  },
+  {
+    "Item1": "<w:r[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "<w:r[\\w\\d\\:\\=\\\"\\ ]*/>",
+    "Item2": false
+  },
+  {
+    "Item1": "</w:r[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "<w:p[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "</w:p[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "<w:t[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "</w:t[\\w\\d\\:\\=\\\"\\ ]*>",
+    "Item2": false
+  },
+  {
+    "Item1": "<w:lang[\\w\\d\\:\\ \\\"\\=\\-]*\\/>",
+    "Item2": true
+  }
+]
